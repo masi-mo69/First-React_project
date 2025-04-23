@@ -10,12 +10,12 @@ const ExpensesFilter = (props) => {
   return (
     <div className='expenses-filter'>
       <div className='expenses-filter__control'>
-        <label>Filter by year</label>
+        <label>فیلتر بر اساس سال</label>
         <select value={props.selected} onChange={dropdownChangeHandler}>
-          <option value='2022'>2022</option>
-          <option value='2021'>2021</option>
-          <option value='2020'>2020</option>
-          <option value='2019'>2019</option>
+          <option value='1400'>1400</option>
+          <option value='1399'>1399</option>
+          <option value='1398'>1398</option>
+          <option value='1397'>1397</option>
         </select>
       </div>
     </div>
